@@ -1,7 +1,6 @@
 # FlexBox
-
 <p align="center">
-  <img src="assets/flexbox/logo.png" alt="Logo" width="300">
+  <img src="assets/logo.png" alt="Logo" width="300">
 </p>
 
 Welcome to the documentation for **Eidos FlexBox**. This is the landing page that guides users to quickstart

@@ -1,4 +1,21 @@
 site_name: Eidos UI
-site_url: https://mydomain.org/mysite
+site_url: https://eidos-unreal.github.io/eidos-docs/
 theme:
   name: material
+nav:
+- Home: index.md
+- FlexBox:
+    - Overview: flexbox/index.md
+    - Blueprints: flexbox/blueprints.md
+    - C++: flexbox/cpp.md
+    - API: flexbox-api/index.md
+plugins:
+- search
+- mkdoxy:
+    projects:
+      flexbox-api: # name of project must be alphanumeric + numbers (without spaces)
+        src-dirs: ../Eidos/Source # path to source code (support multiple paths separated by space) => INPUT
+        full-doc: True # if you want to generate full documentation
+        doxy-cfg: # standard doxygen configuration (key: value)
+          FILE_PATTERNS: "*.cpp *.h*" # specify file patterns to filter out
+          RECURSIVE: True # recursive search in source directories

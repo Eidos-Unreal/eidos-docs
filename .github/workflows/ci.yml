@@ -33,4 +33,5 @@ jobs:
           restore-keys: |
             mkdocs-mkdoxy-
       - run: pip install mkdoxy
+      - uses: ssciwr/doxygen-install@v1
       - run: mkdocs gh-deploy --force

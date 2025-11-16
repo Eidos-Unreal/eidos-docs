@@ -60,19 +60,29 @@ Follow these steps to start using Flexbox in UMG Designer.
 
 ### FlexContainer Properties
 
-* `FlowDirection` — Horizontal / Vertical / HorizontalReverse / VerticalReverse
-* `WrapEnabled` — Bool
-* `JustifyContent` — Start / Center / End / SpaceBetween / SpaceAround
-* `AlignItems` — Start / Center / End / Stretch
-* `GapX`, `GapY` — float
 * `Padding` — FMargin
-* `RebuildOnTick` — (usually false) controls automatic rebuild; avoid enabling unless necessary
+* `FlexDirection` — Horizontal / Vertical / HorizontalReverse / VerticalReverse
+* `FlexWrap` — NoWrap / Wrap / WrapRevers
+* `JustifyContent` — Start / Center / End / Space Between / Space Around / Space Evenly
+* `AlignItems` — Start / Center / End / Stretch
+* `AlignContent` - Normal / Start / Center / End / Space Between / Space Around / Space Evenly
+
+<p align="center">
+  <img src="assets/container-properties.png" alt="Logo" width="300">
+</p>
 
 ### FlexChild Properties (per child)
 
-* `Margin` — FMargin
+* `Padding` — FMargin
+* `Grow` - float
+* `Shrink` - float
 * `AlignSelf` — Auto / Start / Center / End / Stretch
-* `FlexGrow` — float (optional)
+* `Order` - int
+* `Basis` - float
+ 
+<p align="center">
+  <img src="assets/slot-properties.png" alt="Logo" width="300">
+</p>
 
 ---
 

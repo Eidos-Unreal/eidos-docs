@@ -12,4 +12,4 @@ For now, the list of products we have published is tue following:
 
 Also, we now have a freshly created Discord Server. You can join here:
 
-https://discord.gg/bGSVVcbM
+[https://discord.gg/bGSVVcbM](https://discord.gg/bGSVVcbM)
